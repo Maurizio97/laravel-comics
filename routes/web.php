@@ -6,19 +6,51 @@ Route::get('/', function () {
     // $comics;
     $comics = [
         [
-            'name' => 'spiderman',
+            'name' => 'spiderman 1',
             'img' => 'img/spiderman.png'
         ],
         [
-            'name' => 'spiderman',
+            'name' => 'spiderman 2 ',
             'img' => 'img/spiderman.png'
         ],
         [
-            'name' => 'spiderman',
+            'name' => 'spiderman 3',
             'img' => 'img/spiderman.png'
         ],
         [
-            'name' => 'spiderman',
+            'name' => 'spiderman 4',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 5',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 6',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 7',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 8',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 9',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 10',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 11',
+            'img' => 'img/spiderman.png'
+        ],
+        [
+            'name' => 'spiderman 12',
             'img' => 'img/spiderman.png'
         ],
     ];

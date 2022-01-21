@@ -7,12 +7,13 @@
     <div class="anchor">
         <a href="{{ route('comic')}}">COMIC</a>
     </div>
-    <div id="container-img"> 
+    <div class="container-img"> 
         @foreach($comics as $comic)
-            <h2>{{ $comic["name"] }}</h2>
-            <div id="img">
-                {{-- <img src="{{ asset('img/spiderman.png') }}" alt="cover"> --}}
-                <img src="{{ asset($comic["img"]) }}" alt="cover">
+            <div class="card">
+                <div class="img">
+                    <img src="{{ asset($comic["img"]) }}" alt="cover">
+                    <h2>{{ $comic["name"] }}</h2>
+                </div>
             </div>
         @endforeach
     </div>

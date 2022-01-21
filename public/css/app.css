@@ -26,14 +26,23 @@ section {
   padding: 30px;
 }
 
-#home #img {
-  height: 300px;
-  width: 300px;
+#home .container-img {
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-#home #img img {
-  height: 100%;
+#home .container-img .card {
+  width: 16.6666666667%;
+}
+
+#home .container-img .card .img {
+  padding: 20px;
+}
+
+#home .container-img .card .img img {
   width: 100%;
   margin: 0 auto;
 }
