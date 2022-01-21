@@ -4,6 +4,7 @@
 
 .anchor {
   text-align: center;
+  display: block;
 }
 
 h1 {
@@ -18,5 +19,22 @@ h1 {
 #footer {
   background-color: purple;
   padding: 30px;
+}
+
+#container-img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#container-img #img {
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#container-img #img img {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
 }
 
