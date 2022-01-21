@@ -12,6 +12,11 @@ h1 {
     text-align: center;
 }
 
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
 #header {
     background-color: peru;
     padding: 30px;
@@ -22,10 +27,7 @@ h1 {
     padding: 30px;
 }
 
-#container-img {
-    width: 80%;
-    margin: 0 auto;
-
+#home{
     #img{
         height: 300px;
         width: 300px;
@@ -34,6 +36,26 @@ h1 {
             height: 100%;
             width: 100%;
             margin: 0 auto ;
+        }
+    }
+}
+
+#comic {
+    #container-info {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        
+        #col-sx {
+            width: 40%;
+        }
+
+        #col-dx{
+            width: 20%;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }

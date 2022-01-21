@@ -11,6 +11,11 @@ h1 {
   text-align: center;
 }
 
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #header {
   background-color: peru;
   padding: 30px;
@@ -21,20 +26,33 @@ h1 {
   padding: 30px;
 }
 
-#container-img {
-  width: 80%;
-  margin: 0 auto;
-}
-
-#container-img #img {
+#home #img {
   height: 300px;
   width: 300px;
   margin: 0 auto;
 }
 
-#container-img #img img {
+#home #img img {
   height: 100%;
   width: 100%;
   margin: 0 auto;
+}
+
+#comic #container-info {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+#comic #container-info #col-sx {
+  width: 40%;
+}
+
+#comic #container-info #col-dx {
+  width: 20%;
+}
+
+#comic #container-info #col-dx img {
+  width: 100%;
 }
 
