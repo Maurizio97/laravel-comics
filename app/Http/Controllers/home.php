@@ -82,27 +82,29 @@ use Illuminate\Http\Request;
     ];
     
     private $varNavMain = [
-              [
-                'text' => "DIGITAL COMICS",
-                'image' => "/storage/img/buy-comics-digital-comics.png",
-              ],
-              [
-                'text' => "DC MERCHANDISE",
-                'image' => "/storage/img/buy-comics-merchandise.png",
-              ],
-              [
-                'text' => "SUBSCRIPTION",
-                'image' => "/storage/img/buy-comics-shop-locator.png",
-              ],
-              [
-                'text' => "COMIC SHOP LOCATOR",
-                'image' => "/storage/img/buy-comics-subscriptions.png",
-              ],
-              [
-                'text' => "DC POWER VISA",
-                'image' =>"/storage/img/buy-dc-power-visa.svg",
-              ],
-            ];
+
+        [
+        'text' => "DIGITAL COMICS",
+        'image' => "/storage/img/buy-comics-digital-comics.png",
+        ],
+        [
+        'text' => "DC MERCHANDISE",
+        'image' => "/storage/img/buy-comics-merchandise.png",
+        ],
+        [
+        'text' => "SUBSCRIPTION",
+        'image' => "/storage/img/buy-comics-shop-locator.png",
+        ],
+        [
+        'text' => "COMIC SHOP LOCATOR",
+        'image' => "/storage/img/buy-comics-subscriptions.png",
+        ],
+        [
+        'text' => "DC POWER VISA",
+        'image' =>"/storage/img/buy-dc-power-visa.svg",
+        ],
+    ];
+
 
     private $varNavBar = [
         [
@@ -166,5 +168,13 @@ use Illuminate\Http\Request;
         
         return view('pages.home', compact('comicsCop', 'navBar', 'navMain'));
 
+    }
+
+    public function comicPage(){
+
+        $navMain = $this -> varNavMain;
+        $navBar = $this -> varNavBar;
+
+        return view('pages.comic', compact('navBar', 'navMain' ));
     }
 }
