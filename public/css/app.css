@@ -2,6 +2,12 @@ header {
   height: 100px;
 }
 
+header .centratura {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 header li {
   display: inline-block;
 }
@@ -28,12 +34,6 @@ header li a.active {
 
 #logo img {
   height: 80%;
-}
-
-.centratura {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 #container-sec-1 {

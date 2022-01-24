@@ -133,7 +133,29 @@ Route::get('/', function () {
       ]
     ];
 
-    return view('pages.home', compact('comicsCop', 'navBar'));
+    $navMain = [
+      [
+        'text' => "DIGITAL COMICS",
+        'image' => "/storage/img/buy-comics-digital-comics.png",
+      ],
+      [
+        'text' => "DC MERCHANDISE",
+        'image' => "/storage/img/buy-comics-merchandise.png",
+      ],
+      [
+        'text' => "SUBSCRIPTION",
+        'image' => "/storage/img/buy-comics-shop-locator.png",
+      ],
+      [
+        'text' => "COMIC SHOP LOCATOR",
+        'image' => "/storage/img/buy-comics-subscriptions.png",
+      ],
+      [
+        'text' => "DC POWER VISA",
+        'image' =>"/storage/img/buy-dc-power-visa.svg",
+      ],
+    ];
+    return view('pages.home', compact('comicsCop', 'navBar', 'navMain'));
 }) -> name('home');
 
 Route::get('/comic', function () {

@@ -13,15 +13,15 @@
     <div id="background-sec-2">
       <div class="centratura">
         <!-- section 2 -->
-        {{-- <section>
-            @foreach ($collection as $item)
-            <div class="item" v-for="item, i in navMain" :key="i">
-              <img src="require(`../assets/img/${item.image}`)" :alt="item.text">
-              <a href="#">{{ item.text }}</a>
+        <section>
+            @foreach ($navMain as $item)
+            <div class="item">
+              <img src="{{ $item['image']}}" :alt="$item['text']">
+              <a href="#">{{ $item['text'] }}</a>
             </div>
                 
             @endforeach
-        </section> --}}
+        </section>
         <!-- /section 2 -->
       </div>
     </div>

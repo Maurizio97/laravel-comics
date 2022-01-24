@@ -1,5 +1,10 @@
 header {
     height: 100px;
+    .centratura {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
     li {
       display: inline-block;
@@ -30,9 +35,3 @@ header {
     }
   }
     
-
-  .centratura {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
