@@ -134,6 +134,38 @@ h3 {
   margin-top: 20px;
 }
 
+.anchor {
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#comic-page #container-info {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+#comic-page #container-info #col-sx {
+  width: 40%;
+}
+
+#comic-page #container-info #col-dx {
+  width: 20%;
+}
+
+#comic-page #container-info #col-dx img {
+  width: 100%;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
 }

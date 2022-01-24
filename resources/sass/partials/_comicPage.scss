@@ -1,0 +1,33 @@
+.anchor {
+    text-align: center;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+#comic-page {
+
+    #container-info {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0;
+        
+        #col-sx {
+            width: 40%;
+        }
+
+        #col-dx{
+            width: 20%;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

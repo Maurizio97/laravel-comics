@@ -1,7 +1,7 @@
 @extends('layout.main-layout')
 
 @section('component')
-<section id="comic">
+<section id="comic-page">
     <h1>
         Page comic
     </h1>
@@ -20,7 +20,7 @@
             </p>
         </div>
         <div id="col-dx">
-            <img src="{{ asset('img/spiderman.png')}}" alt="cover"
+            <img src="{{ asset('/storage/img/spiderman.png')}}" alt="cover"
         </div>
     </div>
 </section>
