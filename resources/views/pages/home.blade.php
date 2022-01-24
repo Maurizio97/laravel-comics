@@ -21,6 +21,11 @@
     </div>
 </section> --}}
 
+<!-- plate -->
+    <div id="plate">
+        CURRENT SERIES
+    </div>
+<!-- /plate -->
 <!-- items comics -->
 <div id="container-comics-items">
     <div class="centratura" id="cont-item-comic">

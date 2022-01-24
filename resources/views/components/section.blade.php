@@ -4,12 +4,6 @@
       <div id="jumbotron"></div>
       <!-- /jumbotron  -->
 
-      <!-- plate -->
-      <div id="plate">
-        CURRENT SERIES
-      </div>
-      <!-- /plate -->
-
       <!-- items comics -->
         @yield('component')
       <!-- /items comics -->
