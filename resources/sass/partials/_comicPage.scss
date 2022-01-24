@@ -26,7 +26,8 @@ section {
             width: 20%;
 
             img {
-                width: 100%;
+                width: 250px;
+                height: 250px;
             }
         }
     }
@@ -37,11 +38,35 @@ section {
     background-color: #0282f9;
     position: relative;
 
-    img {
+    #cont-img-banner {
         height: 250px;
         width: 193px;
+        border: solid white 1px;
         position: absolute;
         bottom: 25px;
         left: 270px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    #comic-book {
+        position: absolute;
+        bottom: 226px;
+        background-color: #0282f9;
+        color: white;
+        padding: 2px;
+    }
+
+    #view-gallery {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        background-color: #0282f9;
+        color: white;
+        padding: 2px;
+        text-align: center;
     }
 }

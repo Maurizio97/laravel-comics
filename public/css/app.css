@@ -150,7 +150,8 @@ section {
 }
 
 #comic-page #container-info #col-dx img {
-  width: 100%;
+  width: 250px;
+  height: 250px;
 }
 
 #banner {
@@ -159,12 +160,36 @@ section {
   position: relative;
 }
 
-#banner img {
+#banner #cont-img-banner {
   height: 250px;
   width: 193px;
+  border: solid white 1px;
   position: absolute;
   bottom: 25px;
   left: 270px;
+}
+
+#banner img {
+  height: 100%;
+  width: 100%;
+}
+
+#banner #comic-book {
+  position: absolute;
+  bottom: 226px;
+  background-color: #0282f9;
+  color: white;
+  padding: 2px;
+}
+
+#banner #view-gallery {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: #0282f9;
+  color: white;
+  padding: 2px;
+  text-align: center;
 }
 
 body {
