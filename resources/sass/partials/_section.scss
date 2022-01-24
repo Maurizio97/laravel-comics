@@ -1,0 +1,82 @@
+  // sezione 1
+  #container-sec-1 {
+    position: relative;
+  }
+
+  #jumbotron {
+    height: 400px;
+    background-image: url("/storage/img/jumbotron.jpg");
+  }
+
+  #plate {
+    background-color: #0282f9;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 270px;
+    top:380px
+  }
+
+  #container-comics-items {
+    background-color: #1c1c1c;
+    padding-bottom: 20px;
+  }
+
+  #cont-item-comic {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    background-color: #0282f9;
+    color: white;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+  }
+  // /sezione 1
+
+  // sezione 2
+  #background-sec-2 {
+    background-color: #0282f9;
+    height: 130px;
+    display: flex;
+
+    section {
+      height: 100%;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      .item {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        img { 
+          height: 50px;
+          margin: 10px;
+        }
+
+        &:last-child img {
+          height: 35px;
+        }
+
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  // /sezione 2

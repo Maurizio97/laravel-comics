@@ -1,67 +1,157 @@
-#title {
-  color: red;
+header {
+  height: 100px;
 }
 
-.anchor {
-  text-align: center;
-  display: block;
+header li {
+  display: inline-block;
 }
 
-h1 {
-  text-align: center;
+header li a {
+  text-decoration: none;
+  padding: 37px 0;
+  margin: 0 20px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
 }
 
-section {
-  width: 80%;
-  margin: 0 auto;
+header li a.active {
+  color: #0282f9;
+  border-bottom: 5px solid #0282f9;
 }
 
-#header {
-  background-color: peru;
-  padding: 30px;
-}
-
-#footer {
-  background-color: purple;
-  padding: 30px;
-}
-
-#home .container-img {
-  width: 80%;
-  margin: 0 auto;
+#logo {
+  height: 100px;
   display: flex;
+  align-items: center;
+}
+
+#logo img {
+  height: 80%;
+}
+
+.centratura {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+#container-sec-1 {
+  position: relative;
+}
+
+#jumbotron {
+  height: 400px;
+  background-image: url("/storage/img/jumbotron.jpg");
+}
+
+#plate {
+  background-color: #0282f9;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 200px;
+  position: absolute;
+  left: 270px;
+  top: 380px;
+}
+
+#container-comics-items {
+  background-color: #1c1c1c;
+  padding-bottom: 20px;
+}
+
+#cont-item-comic {
+  display: flex;
   flex-wrap: wrap;
 }
 
-#home .container-img .card {
-  width: 16.6666666667%;
-}
-
-#home .container-img .card .img {
-  padding: 20px;
-}
-
-#home .container-img .card .img img {
-  width: 100%;
+.btn {
+  background-color: #0282f9;
+  color: white;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
   margin: 0 auto;
 }
 
-#comic #container-info {
+#background-sec-2 {
+  background-color: #0282f9;
+  height: 130px;
   display: flex;
-  justify-content: center;
-  margin: 40px 0;
 }
 
-#comic #container-info #col-sx {
-  width: 40%;
-}
-
-#comic #container-info #col-dx {
-  width: 20%;
-}
-
-#comic #container-info #col-dx img {
+#background-sec-2 section {
+  height: 100%;
+  display: flex;
   width: 100%;
+  justify-content: space-between;
+}
+
+#background-sec-2 section .item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#background-sec-2 section .item img {
+  height: 50px;
+  margin: 10px;
+}
+
+#background-sec-2 section .item:last-child img {
+  height: 35px;
+}
+
+#background-sec-2 section .item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.item-comics {
+  width: 16.6666666667%;
+  padding: 30px;
+}
+
+.cont-img {
+  height: 210px;
+  overflow: hidden;
+}
+
+.cont-img img {
+  width: 100%;
+}
+
+h3 {
+  color: white;
+  margin-top: 20px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.centratura {
+  width: 80%;
+  margin: 0 auto;
 }
 

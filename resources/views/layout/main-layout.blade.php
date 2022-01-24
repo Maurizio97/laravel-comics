@@ -9,9 +9,7 @@
 </head>
 <body>
     @include('components.header')
-
-    @yield('component')
-
+    @include('components.section')
     @include('components.footer')
 
 </body>

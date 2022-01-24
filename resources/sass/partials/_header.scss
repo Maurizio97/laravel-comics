@@ -1,0 +1,38 @@
+header {
+    height: 100px;
+
+    li {
+      display: inline-block;
+
+      a {
+        text-decoration: none;
+        padding: 37px 0;
+        margin: 0 20px;
+        font-size: 15px;
+        color: black;
+        font-weight: bold;
+
+        &.active {
+          color: #0282f9;
+          border-bottom: 5px solid #0282f9;
+        }
+      }
+    }
+  }
+
+  #logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    img {
+      height: 80%;
+    }
+  }
+    
+
+  .centratura {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
